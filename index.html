@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Il tuo potenziale non ha limiti</title>
     <!-- english -->
-    <meta name="language" content="en">
+    <meta name="language" content="en";
     <meta name="title" content="Il tuo potenziale non ha limiti">
     <meta name="describe" content="Credi in te stesso, come io credo in te ">
     <link rel="icon" type="image/x-icon" href="https://uxwing.com/wp-content/themes/uxwing/download/relationship-love/heart-black-icon.png">
@@ -17,7 +17,7 @@
         <div>
             <h1 id="h1">Alinka ‹𝟹</h1>
             <br>
-            <h2 id="h2" class="hidden">In the tapestry of the universe, your soul is the brightest thread. Every challenge you face adds to its luminescence. You are cosmic beauty incarnate, Alin.</h2>
+            <h2 id="h2">In the tapestry of the universe, your soul is the brightest thread. Every challenge you face adds to its luminescence. You are cosmic beauty incarnate, Alin.</h2>
             <br>
             <h3 id="h3">(delicately crafted to sprinkle moments of joy into your day)</h3>
             <p>&nbsp;</p>
@@ -295,12 +295,7 @@
                 el.innerHTML = heading;
                 setTimeout(function () {
                     el.className = 'transition-in';
-                    if (id === 'h1') {
-                        setTimeout(function() {
-                            document.getElementById('h2').classList.add('visible');
-                        }, 2000); // Adjust this delay (5000ms = 5s) to match when you want h2 to appear
-                    }
-                }, (Math.random() * 800) + 3500);
+                }, (Math.random() * 500) + 3900);
             }
 
             function save() {
